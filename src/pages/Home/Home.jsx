@@ -17,7 +17,8 @@ const Home = () => {
             el: scrollRef.current,
             smooth: true,
             getDirection: true,
-            lerp: 0.1, // You can adjust this for smoother or faster scrolling
+            lerp: 0.05, // Slower scrolling effect (lower value for slower scrolling)
+            multiplier: 0.6, // Scroll speed multiplier (less than 1 for slower scroll)
         });
 
         // Cleanup on component unmount
@@ -31,9 +32,9 @@ const Home = () => {
             <Navbar />
             <Banner />
             <WhyPixliaTech />
-            <ExploreOurExpertise/>
-            <LastBanner/>
-            <Footer/>
+            <ExploreOurExpertise />
+            <LastBanner />
+            <Footer />
         </div>
     );
 };
