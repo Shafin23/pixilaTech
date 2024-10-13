@@ -4,7 +4,7 @@ import './WhyPixliaTech.css';
 const WhyPixliaTech = () => {
     return (
         <div className="why-pixliatech">
-            <h2 style={{fontFamily:"Anybody"}} className=' border-b pb-5 text-[40px] font-black mb-10'>Why PixliaTech?</h2>
+            <h2 style={{fontFamily:"Anybody"}} className=' border-b pb-5 text-[40px] font-black mb-10'>Why Pixlia Tech?</h2>
             <div className="grid-container">
                 <FeatureCard
                     number="01"

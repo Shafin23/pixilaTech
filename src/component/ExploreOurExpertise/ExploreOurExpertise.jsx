@@ -3,7 +3,7 @@ import Experties from './Experties/Experties';
 
 const ExploreOurExpertise = () => {
     return (
-        <div className='w-[90%] mx-auto my-16 md:my-24'>
+        <div className='max-w-7xl mx-auto my-16 md:my-24 px-5 md:px-0'>
             <h1 style={{fontFamily:"Anybody"}} className='font-black text-2xl md:text-3xl lg:text-[32px] text-start mb-6'>
                 Explore Our Expertise
             </h1>
