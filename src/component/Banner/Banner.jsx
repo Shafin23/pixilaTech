@@ -17,7 +17,7 @@ const Banner = () => {
 
                 <div className="flex justify-center items-center">
                     <img
-                        src="/public/Group 1.png"
+                        src="banner.png"
                         className='w-full md:w-[70%] h-auto max-h-[300px] md:max-h-[350px]'
                         alt="Team working illustration"
                     />
