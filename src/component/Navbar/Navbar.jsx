@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-16">
                     {/* Logo Section */}
                     <div className="flex-shrink-0 flex items-center">
-                        <img src="/logo.png" alt="PixliaTech Logo" className="w-10 h-10" />
+                        <img src="logo.png" alt="PixliaTech Logo" className="w-10 h-10" />
                         <p className="ml-3 font-extrabold text-lg">PixliaTech</p>
                     </div>
 

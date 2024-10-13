@@ -15,7 +15,7 @@ const Footer = () => {
                         <div className='flex flex-col md:flex-row justify-between items-start'>
                             <InfoLinks heading="Info" list={["Pixlia.Tech", "Products", "Engineering", "Services", "Productions"]} />
 
-                            <img src="/public/Group (1).png" className='w-[60px] h-[60px] md:w-[70px] md:h-[70px] mt-6 md:mt-0' alt="Logo" />
+                            <img src="Group (1).png" className='w-[60px] h-[60px] md:w-[70px] md:h-[70px] mt-6 md:mt-0' alt="Logo" />
                         </div>
                         <div className='mt-10 md:mt-16'>
                             <InfoLinks heading="Contact us" list={["hello@pixlia.tech", "India"]} />
